@@ -1,3 +1,4 @@
+from random import shuffle
 import random
 import os
 os.system("cls")
@@ -27,3 +28,16 @@ print("\n\n-Sequence-\n")
 
 for i in range(4):
     print(f"{numbers_norepeat[i]}- {names_norepeat[i]}")
+    
+    
+#Jeito mais prático sem numeração, sem cuidar da repeticao, etc..
+
+#n1 = str(input("Enter first name: "))
+#n2 = str(input("Enter second name: "))
+#n3 = str(input("Enter third name: "))
+#n4 = str(input("Enter forth name: "))
+
+#names = [n1, n2, n3, n4]
+#shuffle(names)
+#print(names)
+    

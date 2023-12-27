@@ -1,7 +1,11 @@
 import os
-import math
+from math import radians, sin, cos, tan
 os.system("cls")
 
 angle = float(input("Enter an angle: "))
 
-print(f"\nCos {angle}°: {math.cos(angle):.2f} \nSin {angle}°: {math.sin(angle):.2f} \nTan {angle}°: {math.tan(angle):.2f}")
+sin = sin(radians(angle))
+cos = cos(radians(angle))
+tan = tan(radians(angle))
+
+print(f"\nCos {angle}°: {cos:.2f} \nSin {angle}°: {sin:.2f} \nTan {angle}°: {tan:.2f}")
